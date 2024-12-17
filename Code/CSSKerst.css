@@ -1,0 +1,87 @@
+.backgroundpattern{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image: url("Images/ChristmasPattern.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-content: center;
+    font-size: 4vmin;
+    font-family: 'customfont';
+}
+@font-face {
+    font-family: 'customfont';
+    src: url("Fonts/GreatVibes-Regular.ttf");
+}
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.question{
+    height: 30vh;
+    width: 80vw;
+    background-color: #ede8d0;
+    position: relative;
+    align-content: center;
+    margin-left: 10vw;
+    border-radius: 15vmin;
+}
+.answer {
+    font-size: 4vmin;
+    margin-top: 2vh;
+    width: 35vw;
+}
+.label{
+    font-size: 5vmin;
+    margin-left: 5vw;
+}
+.header{
+    font-size: 9vmin;
+    margin-left: 15vw;
+    margin-top: -4vh;
+}
+.code{
+    background-color: white;
+    height: 5vh;
+    width: 70vw;
+    margin-left: 5vw;
+    margin-bottom: 6vmin;
+    border-radius: 15vmin;
+}
+.codetext{
+    margin-top: 3vh;
+    padding-top: 1vh;
+    margin-left: 5vmin;
+    font-size: 4.5vmin;
+}
+.button {
+    height: 5vh;
+    width: 15vw;
+    font-family: 'customfont';
+    font-size: 4vmin;
+    background-color: #ede8d0;
+    border-color: #ede8d0;
+    outline: none;
+    border-style: solid;
+}
+.backgroundcorrect{
+    background-color: green;
+    height: 30vh;
+    width: 80vw;
+    position: relative;
+    align-content: center;
+    margin-left: 10vw;
+    border-radius: 15vmin;
+}
