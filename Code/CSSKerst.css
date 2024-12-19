@@ -6,7 +6,7 @@
     margin: 0;
 }
 .background{
-    background-image: url("Images/ChristmasPattern.jpeg");
+    background-image: url("Images/gingerbreadsir.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -27,16 +27,17 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding: 0px;
 }
 .question{
-    height: 30vh;
+    height: 80vh;
     width: 80vw;
     background-color: #ede8d0;
     position: relative;
     align-content: center;
     margin-left: 10vw;
     border-radius: 15vmin;
+    opacity: 1;
+    text-align: center;
 }
 .answer {
     font-size: 4vmin;
@@ -49,8 +50,8 @@ body {
 }
 .header{
     font-size: 9vmin;
-    margin-left: 15vw;
-    margin-top: -4vh;
+    margin-left: 2vw;
+    margin-top: -2vh;
 }
 .code{
     background-color: white;
@@ -76,12 +77,165 @@ body {
     outline: none;
     border-style: solid;
 }
-.backgroundcorrect{
-    background-color: green;
-    height: 30vh;
+.winmessage{
+    position: absolute;
+    background-color: white;
+    border-image: url('Images/borderpattern.png') 20 round;
+    border-style: solid;
+    border-width: 1.8vmin;
+    height: 40vh;
     width: 80vw;
-    position: relative;
-    align-content: center;
-    margin-left: 10vw;
-    border-radius: 15vmin;
+    margin-left: 8vw;
+    margin-top: -1vh;
+    opacity: 0;
+    font-family: 'customfont';
+}
+.winheader{
+    font-size: 10vmin;
+    margin-left: 20vw;
+}
+.winmessage{
+    font-size: 8vmin;
+    text-style: bold;
+
+}
+input {
+    font-family: 'customfont';
+    font-size: 6vmin;
+}
+label {
+    font-family: 'customfont';
+    font-size: 6vmin;
+}
+.answereight{
+    margin-top: 2vh;
+}
+.button{
+    height: 5vh;
+    margin-top: 2vh;
+    width: 45vw;
+    font-size: 6vmin;
+    background-color: white;
+}
+.checkmarkone{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarktwo{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarkthree{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarkfour{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarkfive{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarksix{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarkseven{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.checkmarkeight{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    margin-top: 2vh;
+    opacity: 0;
+}
+.xone{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xtwo{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xthree{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xfour{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xfive{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xsix{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xseven{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    opacity: 0;
+}
+.xeight{
+    position: absolute;
+    height: 4vh;
+    width: 5vw;
+    margin-top: 2vh;
+    opacity: 0;
+}
+.hat{
+    position: absolute;
+    margin-top: -35vh;
+    margin-left: -15vw;
+    rotate: -10deg;
+    scale: 90%;
+}
+.gingerman{
+    position: absolute;
+    height: 15vh;
+    width: 35vw;
+    margin-top: -2vh;
+}
+.christmastreegiff{
+    position: absolute;
+    height: 20vh;
+    width: 35vw;
+    margin-left: 42vw;
+    margin-top: -5vh;
+    rotate: 10deg;
+}
+.wintext{
+    text-align: center;
 }

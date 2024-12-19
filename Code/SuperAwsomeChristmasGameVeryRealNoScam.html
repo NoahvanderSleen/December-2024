@@ -8,17 +8,50 @@
     </head>
     <body>
         <div class="background">
+            <div class="winmessage" id="winmessage">
+                <h2 class="winheader">Gefeliciteerd!</h2>
+                <p class="wintext">De antwoorden waren goed! Jullie verdienen een hartje.</p>
+                <img src="Images/Christmashat.png" alt="hat" class="hat">
+                <img src="Images/christmastree.gif" alt="christmastree" class="christmastreegiff">
+                <img src="Images/gingerbreadman.gif" alt="gingerbreadman" class="gingerman">
+            </div>
             <div class="question" id="question">
-                <h2 class="header">Ontcijfer de code!</h2>
-                <div class="code">
-                    <p class="codetext">.-.. .. . ..-. -.. . / ... .- -- . -. -.- --- -- . -.</p>
-                </div>
+                <h2 class="header">Voer hier je antwoorden in om ze te controleren.</h2>
                 <div>
-                    <label for="answer" class="label">Antwoord: </label>
-                    <input type="text" id="answer" name="answer" class="answer">
-                    <button onclick="checkAnswer()" class="button">Submit</button>
+                    <label for="answerone" class="label1">Antwoord spel 1: </label>
+                    <input type="text" id="answerone" name="answerone" class="answerone">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarkone" id="checkone">
+                    <img src="Images/xnocopyright.png" alt="x" class="xone" id="xone"><br>
+                    <label for="answertwo" class="label2">Antwoord spel 2: </label>
+                    <input type="text" id="answertwo" name="answertwo" class="answertwo">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarktwo" id="checktwo">
+                    <img src="Images/xnocopyright.png" alt="x" class="xtwo" id="xtwo"><br>
+                    <label for="answerthree" class="label3">Antwoord spel 3: </label>
+                    <input type="text" id="answerthree" name="answerthree" class="answerthree">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarkthree" id="checkthree">
+                    <img src="Images/xnocopyright.png" alt="x" class="xthree" id="xthree"><br>
+                    <label for="answerfour" class="label4">Antwoord spel 4: </label>
+                    <input type="text" id="answerfour" name="answerfour" class="answerfour">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarkfour" id="checkfour">
+                    <img src="Images/xnocopyright.png" alt="x" class="xfour" id="xfour"><br>
+                    <label for="answerfive" class="label5">Antwoord spel 5: </label>
+                    <input type="text" id="answerfive" name="answerfive" class="answerfive">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarkfive" id="checkfive">
+                    <img src="Images/xnocopyright.png" alt="x" class="xfive" id="xfive"><br>
+                    <label for="answersix" class="label6">Antwoord spel 6: </label>
+                    <input type="text" id="answersix" name="answersix" class="answersix">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarksix" id="checksix">
+                    <img src="Images/xnocopyright.png" alt="x" class="xsix" id="xsix"><br>
+                    <label for="answerseven" class="label7">Antwoord spel 7: </label>
+                    <input type="text" id="answerseven" name="answerseven" class="answerseven">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarkseven" id="checkseven">
+                    <img src="Images/xnocopyright.png" alt="x" class="xseven" id="xseven"><br>
+                    <label for="answereight" class="label8">De zin: </label>
+                    <input type="text" id="answereight" name="answereight" class="answereight">
+                    <img src="Images/checkmarknocopyright.png" alt="checkmark" class="checkmarkeight" id="checkeight">
+                    <img src="Images/xnocopyright.png" alt="x" class="xeight" id="xeight"><br>
+                    <button onclick="checkAnswer()" class="button">Check Antwoorden</button>
                 </div>
-
             </div>
         </div>
     </body>
