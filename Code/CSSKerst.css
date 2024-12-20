@@ -38,13 +38,13 @@
         height: 90%;
         width: 90%;
         background-color: #ede8d0;
-        position: relative;
+        position: absolute;
         align-content: center;
         margin-left: 5%;
         border-radius: 15dvmin;
         opacity: 1;
         text-align: center;
-        margin-top: 5%;
+        margin-top: -80%;
     }
 
     .answer {
@@ -99,8 +99,8 @@
         border-width: 1.8dvmin;
         height: 40dvh;
         width: 80dvw;
-        margin-left: 8dvw;
-        margin-top: -1dvh;
+        margin-left: 8%;
+        margin-top: -60%;
         opacity: 0;
         font-family: 'customfont';
     }
