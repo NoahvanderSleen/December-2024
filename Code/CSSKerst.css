@@ -44,7 +44,7 @@
         border-radius: 15dvmin;
         opacity: 1;
         text-align: center;
-        margin-top: -80%;
+        margin-top: -30%;
     }
 
     .answer {
@@ -80,16 +80,6 @@
         font-size: 4.5dvmin;
     }
 
-    .button {
-        height: 5dvh;
-        width: 15dvw;
-        font-family: 'customfont';
-        font-size: 4dvmin;
-        background-color: #ede8d0;
-        border-color: #ede8d0;
-        outline: none;
-        border-style: solid;
-    }
 
     .winmessage {
         position: absolute;
@@ -278,6 +268,17 @@
 
     .wintext {
         text-align: center;
+    }
+    .button {
+        height: 6dvh;
+        width: 50%;
+        font-family: 'customfont';
+        font-size: 4dvmin;
+        background-color: white;
+        border-color: #ede8d0;
+        outline: none;
+        border-style: solid;
+        color: black;
     }
 }
 @media screen and (max-width: 800px) {
