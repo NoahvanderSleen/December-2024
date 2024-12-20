@@ -70,6 +70,18 @@
         margin-left: 5dvmin;
         font-size: 4.5dvmin;
     }
+    .question {
+        height: 90%;
+        width: 90%;
+        background-color: #ede8d0;
+        align-content: center;
+        border-radius: 15dvmin;
+        opacity: 1;
+        text-align: center;
+        z-index: 2;
+        box-sizing: border-box;
+        padding-top: 20%;
+    }
 
 
     .winmessage {
@@ -84,6 +96,7 @@
         margin-top: -60%;
         opacity: 0;
         font-family: 'customfont';
+        z-index: 1;
     }
 
     .winheader {
@@ -258,15 +271,6 @@
     }
 
     .wintext {
-        text-align: center;
-    }
-    .question {
-        height: 90%;
-        width: 90%;
-        background-color: #ede8d0;
-        align-content: center;
-        border-radius: 15dvmin;
-        opacity: 1;
         text-align: center;
     }
     .button {
