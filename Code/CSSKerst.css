@@ -1,241 +1,284 @@
-.backgroundpattern{
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    padding: 0;
-    margin: 0;
-}
-.background{
-    background-image: url("Images/gingerbreadsir.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    align-content: center;
-    font-size: 4vmin;
-    font-family: 'customfont';
-}
-@font-face {
-    font-family: 'customfont';
-    src: url("Fonts/GreatVibes-Regular.ttf");
-}
-body {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-.question{
-    height: 80vh;
-    width: 80vw;
-    background-color: #ede8d0;
-    position: relative;
-    align-content: center;
-    margin-left: 10vw;
-    border-radius: 15vmin;
-    opacity: 1;
-    text-align: center;
-}
-.answer {
-    font-size: 4vmin;
-    margin-top: 2vh;
-    width: 35vw;
-}
-.label{
-    font-size: 5vmin;
-    margin-left: 5vw;
-}
-.header{
-    font-size: 9vmin;
-    margin-left: 2vw;
-    margin-top: -2vh;
-}
-.code{
-    background-color: white;
-    height: 5vh;
-    width: 70vw;
-    margin-left: 5vw;
-    margin-bottom: 6vmin;
-    border-radius: 15vmin;
-}
-.codetext{
-    margin-top: 3vh;
-    padding-top: 1vh;
-    margin-left: 5vmin;
-    font-size: 4.5vmin;
-}
-.button {
-    height: 5vh;
-    width: 15vw;
-    font-family: 'customfont';
-    font-size: 4vmin;
-    background-color: #ede8d0;
-    border-color: #ede8d0;
-    outline: none;
-    border-style: solid;
-}
-.winmessage{
-    position: absolute;
-    background-color: white;
-    border-image: url('Images/borderpattern.png') 20 round;
-    border-style: solid;
-    border-width: 1.8vmin;
-    height: 40vh;
-    width: 80vw;
-    margin-left: 8vw;
-    margin-top: -1vh;
-    opacity: 0;
-    font-family: 'customfont';
-}
-.winheader{
-    font-size: 10vmin;
-    margin-left: 20vw;
-}
-.winmessage{
-    font-size: 8vmin;
-    text-style: bold;
+@media screen and (max-width: 479px) {
 
+
+    .backgroundpattern {
+        height: 100dvh;
+        width: 100dvh;
+        object-fit: cover;
+        padding: 0;
+        margin: 0;
+    }
+
+    .background {
+        background-image: url("Images/gingerbreadsir.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100dvh;
+        width: 100dvw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        align-content: center;
+        font-size: 4dvmin;
+        font-family: 'customfont';
+    }
+
+    @font-face {
+        font-family: 'customfont';
+        src: url("Fonts/GreatVibes-Regular.ttf");
+    }
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .question {
+        height: 80dvh;
+        width: 80dvh;
+        background-color: #ede8d0;
+        position: relative;
+        align-content: center;
+        margin-left: 10dvw;
+        border-radius: 15dvmin;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .answer {
+        font-size: 4dvmin;
+        margin-top: 2dvh;
+        width: 35dvw;
+    }
+
+    .label {
+        font-size: 5dvmin;
+        margin-left: 5dvw;
+    }
+
+    .header {
+        font-size: 9dvmin;
+        margin-left: 2dvw;
+        margin-top: -2dvh;
+    }
+
+    .code {
+        background-color: white;
+        height: 5dvh;
+        width: 70dvw;
+        margin-left: 5dvw;
+        margin-bottom: 6dvmin;
+        border-radius: 15dvmin;
+    }
+
+    .codetext {
+        margin-top: 3dvh;
+        padding-top: 1dvh;
+        margin-left: 5dvmin;
+        font-size: 4.5dvmin;
+    }
+
+    .button {
+        height: 5dvh;
+        width: 15dvw;
+        font-family: 'customfont';
+        font-size: 4dvmin;
+        background-color: #ede8d0;
+        border-color: #ede8d0;
+        outline: none;
+        border-style: solid;
+    }
+
+    .winmessage {
+        position: absolute;
+        background-color: white;
+        border-image: url('Images/borderpattern.png') 20 round;
+        border-style: solid;
+        border-width: 1.8dvmin;
+        height: 40dvh;
+        width: 80dvw;
+        margin-left: 8dvw;
+        margin-top: -1dvh;
+        opacity: 0;
+        font-family: 'customfont';
+    }
+
+    .winheader {
+        font-size: 10dvmin;
+        margin-left: 20dvw;
+    }
+
+    .winmessage {
+        font-size: 8dvmin;
+        text-style: bold;
+
+    }
+
+    input {
+        font-family: 'customfont';
+        font-size: 6dvmin;
+    }
+
+    label {
+        font-family: 'customfont';
+        font-size: 6dvmin;
+    }
+
+    .answereight {
+        margin-top: 2dvh;
+    }
+
+    .button {
+        height: 5dvh;
+        margin-top: 2dvh;
+        width: 45dvw;
+        font-size: 6dvmin;
+        background-color: white;
+    }
+
+    .checkmarkone {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarktwo {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarkthree {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarkfour {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarkfive {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarksix {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarkseven {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .checkmarkeight {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        margin-top: 2dvh;
+        opacity: 0;
+    }
+
+    .xone {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xtwo {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xthree {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xfour {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xfive {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xsix {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xseven {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        opacity: 0;
+    }
+
+    .xeight {
+        position: absolute;
+        height: 4dvh;
+        width: 5dvw;
+        margin-top: 2dvh;
+        opacity: 0;
+    }
+
+    .hat {
+        position: absolute;
+        margin-top: -35dvh;
+        margin-left: -15dvw;
+        rotate: -10deg;
+        scale: 90%;
+    }
+
+    .gingerman {
+        position: absolute;
+        height: 15dvh;
+        width: 35dvw;
+        margin-top: -2dvh;
+    }
+
+    .christmastreegiff {
+        position: absolute;
+        height: 20dvh;
+        width: 35dvw;
+        margin-left: 42dvw;
+        margin-top: -5dvh;
+        rotate: 10deg;
+    }
+
+    .wintext {
+        text-align: center;
+    }
 }
-input {
-    font-family: 'customfont';
-    font-size: 6vmin;
-}
-label {
-    font-family: 'customfont';
-    font-size: 6vmin;
-}
-.answereight{
-    margin-top: 2vh;
-}
-.button{
-    height: 5vh;
-    margin-top: 2vh;
-    width: 45vw;
-    font-size: 6vmin;
+@media screen and (max-width: 800px) {
     background-color: white;
-}
-.checkmarkone{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarktwo{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarkthree{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarkfour{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarkfive{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarksix{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarkseven{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.checkmarkeight{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    margin-top: 2vh;
-    opacity: 0;
-}
-.xone{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xtwo{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xthree{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xfour{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xfive{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xsix{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xseven{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    opacity: 0;
-}
-.xeight{
-    position: absolute;
-    height: 4vh;
-    width: 5vw;
-    margin-top: 2vh;
-    opacity: 0;
-}
-.hat{
-    position: absolute;
-    margin-top: -35vh;
-    margin-left: -15vw;
-    rotate: -10deg;
-    scale: 90%;
-}
-.gingerman{
-    position: absolute;
-    height: 15vh;
-    width: 35vw;
-    margin-top: -2vh;
-}
-.christmastreegiff{
-    position: absolute;
-    height: 20vh;
-    width: 35vw;
-    margin-left: 42vw;
-    margin-top: -5vh;
-    rotate: 10deg;
-}
-.wintext{
-    text-align: center;
 }
