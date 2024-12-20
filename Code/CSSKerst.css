@@ -35,15 +35,16 @@
     }
 
     .question {
-        height: 80%;
-        width: 80%;
+        height: 90%;
+        width: 90%;
         background-color: #ede8d0;
         position: relative;
         align-content: center;
-        margin-left: 10%;
+        margin-left: 5%;
         border-radius: 15dvmin;
         opacity: 1;
         text-align: center;
+        margin-top: 5%;
     }
 
     .answer {
